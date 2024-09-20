@@ -1,4 +1,5 @@
 'use strict';
-const a = { }
+const a = { name: 'John' }
 
-console.log(typeof a)
+console.log(typeof a);
+console.log(a);
