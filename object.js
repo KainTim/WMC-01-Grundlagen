@@ -10,3 +10,6 @@ console.log(a[propertyName]);
 
 a.firma = 'Nokia';
 console.log(a.firma);
+
+const b = {...a, address: 'Finland'};
+console.log(b);
