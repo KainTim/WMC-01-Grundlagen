@@ -1,9 +1,11 @@
+'use strict';
+
 // 1. Number
 
 let x = 4;
 let y = 3.14;
 
-c = 24/0; //Infinity
+let c = 24/0; //Infinity
 
 //2. String
 
