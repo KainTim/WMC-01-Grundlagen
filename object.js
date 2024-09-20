@@ -13,3 +13,5 @@ console.log(a.firma);
 
 const b = {...a, address: 'Finland'};
 console.log(b);
+
+console.log(typeof null);//JS Fail
