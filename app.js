@@ -1,14 +1,14 @@
 // 1. Number
 
-x = 4;
-y = 3.14;
+let x = 4;
+let y = 3.14;
 
 c = 24/0; //Infinity
 
 //2. String
 
-a = 'Hello';
-b = `Hello value ${x}`; //template string
+const a = 'Hello';
+const b = `Hello value ${x}`; //template string
 
 //3. boolean
 
@@ -33,4 +33,8 @@ typeof x; //number
 23 == 42; //false
 'Hello Welt' == 'Hello Welt'; //true
 
-0 == '0'
+0 == '0'; //true
+0 == '';  //true
+
+0 === '0'; //false
+0 !== '0'; //true
